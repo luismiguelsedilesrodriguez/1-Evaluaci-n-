@@ -1,0 +1,5 @@
+# Programa de iniciación
+# Pregunta mi nimbre y responde salúdame 
+a=input("Numero 1: ")
+b=input("Numero 2: ")
+print(a+b)
