@@ -1,0 +1,13 @@
+# pide tres numeros para hacer la media 
+def media():
+    #inicializo las variables 
+    n1=0
+    n2=0
+    n1=int(input("número 1:"))
+    n2=int(input("número 2:"))
+    n3=int(input("número 3:"))
+    suma=n1+n2+n3
+    media=suma/3
+    print(media) 
+    
+media()
