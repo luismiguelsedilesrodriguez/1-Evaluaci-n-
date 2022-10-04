@@ -1,0 +1,7 @@
+#Escribimos la tabla que elija el usuario 
+def tabla_del_1(): 
+    ntabla=input("Dime el número de tabla: ")
+    for cont in range(0,11):
+        print(str(ntabla)+"*"+str(cont)+"= "+str(int(ntabla)*cont))
+        
+tabla_del_1()
