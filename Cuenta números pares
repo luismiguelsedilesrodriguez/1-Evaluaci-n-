@@ -1,0 +1,7 @@
+# Otro programa con bucle 
+#cuenta los numeros pares 
+def cuenta_atras(): 
+    for cont in range(0,100,2):
+        print(cont)
+        print("Es par")
+cuenta_atras()
