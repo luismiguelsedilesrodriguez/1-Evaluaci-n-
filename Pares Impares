@@ -1,0 +1,14 @@
+#Leemos 20 numeros enteros
+#sumamos los pares por un lado
+#sumamos los impares por otro 
+def suma_par_impar():
+    suma_par=0
+    suma_impar=0
+    for cont in range(1,21):
+        num=int(input("Dame un numero: "))
+        if(num%2==0):
+            print("ES PAR")#Rama del verdadero
+        else:
+            print("ES IMPAR")#Rama del falso
+
+suma_par_impar()
