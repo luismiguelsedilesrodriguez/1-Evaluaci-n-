@@ -1,0 +1,13 @@
+#Cajero automatico que saca dinero 
+def mete_dinero():
+    total=int(input("Inserte la cantidad de dinero: "))
+    print("Has introducido:")
+    print(total)
+
+    seguir=True 
+    
+    while(seguir==True):
+        retiro=int(input("Cuanto dinero quieres retirar: "))
+        if
+
+mete_dinero()
