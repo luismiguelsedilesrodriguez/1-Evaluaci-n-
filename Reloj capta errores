@@ -1,0 +1,21 @@
+#Te pregunta la hora y te responde de acuerdo a la misma
+#Capta el error 
+def pregunta_hora():
+    seguir=True
+   
+    while(seguir==True): 
+        hora=int(input("Hola, dime la hora: "))
+        if(hora<=0 or hora>24 ):
+            print("Hora erronea :(")
+            seguir=True
+        else:
+            seguir=False
+            if(hora>=6 and hora<=12):
+                print("Buenos días bebeee!!")
+            else:
+                if(hora>=12 and hora<=20):
+                    print("Buenas tadres princesaaa!!!")
+                else:
+                    print("Buenas noches papiii!!!")
+
+pregunta_hora()
