@@ -1,0 +1,36 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+def muestra_menu():
+    print("********************************")
+    print("**\_-_-_-_-_-_MENU_-_-_-_-_-_/**")
+    print("1. Ingresar Dinero")
+    print("2. Sacar Dinero")
+    print("3. Salir")
+
+def ingresar_dinero(saldo):
+    dinero=int(input("cuanto dinero quieres ingresar: "))
+    saldo=saldo+dinero
+    return(saldo)
+
+def sacar_dinero(saldo):
+    retiro=int(input("cuanto dinero quiera sacar mi bella dama: "))
+    saldo=saldo-retiro 
+    return(saldo)
+    
+def main():
+    seguir=True
+    saldo=0
+    while(seguir==True):
+        muestra_menu()
+        respuesta=int(input("Que deseas hacer: "))
+        if(respuesta==1):
+            saldo=ingresar_dinero(saldo)
+            seguir=True
+        if(respuesta==2):
+            saldo=sacar_dinero(saldo)
+            seguir=True
+        if(respuesta==3):
+            print("Muchas Gracias mi reina bella, Adios")
+            seguir=False
+            
+main()
