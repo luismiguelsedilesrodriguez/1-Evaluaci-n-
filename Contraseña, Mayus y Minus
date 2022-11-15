@@ -1,0 +1,8 @@
+def prueba_palabra():
+    password=input("Dime tu contraseña: ")
+    if(password.islower() or password.isupper()):
+        print("Cumple el criterio de tener mayuscula o minuscula")
+    else:
+        print("No cumple el criterio de tener mayuscula o minuscula")
+        
+prueba_palabra()
