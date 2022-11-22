@@ -1,0 +1,23 @@
+def nota_corte():
+    media=0
+    bach1=float(input("Introduzca su nota de 1º BACH 🙌 : "))
+    bach2=float(input("Introduzca su nota de 2º BACH 😎 : "))
+    media= bach1 + bach2
+    media_fin= media/2
+    print("Tu media de bachillerato es 👀💕 :" + str(media_fin))
+    if()
+    if(media_fin>5): 
+        nota_obl=0
+        nota_ing=float(input("Dime tu nota de Inglés🙄 "))
+        nota_mat=float(input("Dime tu nota de Matemáticas🥶 "))
+        nota_lengua=float(input("Dime tu nota de Lengua🦑 "))
+        nota_hist=float(input("Dime tu nota de Historia👙 "))
+        nota_oblg=nota_ing + nota_mat  +nota_lengua + nota_hist
+        media_oblg=nota_oblg/4 
+        print("Tu nota de fase oblogatoria es " + str(media_oblg))
+        nota_opt=0
+        nota_7,8
+    else: 
+        print("No tienes suficiente media para presentarte💀")
+
+nota_corte()
